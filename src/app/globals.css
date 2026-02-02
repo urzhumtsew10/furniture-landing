@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #e58411;
+  --color-white: #ffffff;
+  --color-dark-black: #1e1e1e;
+  --color-gray-light: #eeeeee;
+  --color-gray-dimmed: #f7f7f7;
+  --color-gray-dark: #8d8d8d;
+  --color-dark-blue: #0d1b39;
+  --color-orange: #f6b76f;
+}
+
+:root {
+  --font-primary: "Manrope";
+  --font-secondary: "Inter";
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: var(--font-primary), sans-serif;
+}
